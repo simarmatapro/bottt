@@ -1535,7 +1535,7 @@ if($message['type']=='text') {
                             'imageAspectRatio' => 'rectangle', 
                             'imageSize' => 'cover', 
                             'imageBackgroundColor' => '#FFFFFF', 
-                            'title' => 'Ubed.', 
+                            'title' => 'TxGabz', 
                             'text' => 'Creator Jojowikwik', 
                             'actions' =>  
                             array ( 
