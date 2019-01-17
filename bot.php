@@ -3,7 +3,7 @@
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 $channelAccessToken = 'aKvglAYhwvOpYYy3tgVdgW4b5NenJHD9Kh8kc/D7rOROt/Jjp6vrj6fCax4fQ/mq1Ay3jPNaEboMlMW+MeMbof3x9DVTYr9/WCXmlhpxK28hPPN2+FpR0BZez4mM4zU/xu/4oCdsK+i2ia5Ct0BBxwdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = '5417cdfeb36fa34b2775cc17f9e0e628';//sesuaikan
+$channelSecret = 'afde74625393606aca081d493355a7f';//sesuaikan
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId     = $client->parseEvents()[0]['source']['userId'];
 $groupId    = $client->parseEvents()[0]['source']['groupId'];
@@ -596,7 +596,7 @@ if ($command == '/menu') {
     );
 }
 if ($type == 'join') {
-    $text = "Thanks for invite me to your group!!! Please type help";
+    $text = "Thanks for inviting me to your group!!! Please type help, POWERED BY GABZBOT @tww8169j";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -1527,7 +1527,7 @@ if($message['type']=='text') {
             'messages' => array( 
                 array ( 
                         'type' => 'template', 
-                          'altText' => 'About Creator JooxBot', 
+                          'altText' => 'About Creator Jojowikwik', 
                           'template' =>  
                           array ( 
                             'type' => 'buttons', 
@@ -1536,14 +1536,14 @@ if($message['type']=='text') {
                             'imageSize' => 'cover', 
                             'imageBackgroundColor' => '#FFFFFF', 
                             'title' => 'Ubed.', 
-                            'text' => 'Creator JooxBot', 
+                            'text' => 'Creator Jojowikwik', 
                             'actions' =>  
                             array ( 
                               0 =>  
                               array ( 
                                 'type' => 'uri', 
                                 'label' => 'Contact', 
-                                'uri' => 'https://line.me/ti/p/~@scf6148e', 
+                                'uri' => 'https://line.me/ti/p/~gabz78', 
                               ), 
                             ), 
                           ), 
@@ -1803,7 +1803,7 @@ if($message['type']=='text') {
                         array (
 			0 => 
                           array (
-                            'imageUrl' => 'https://stuff.co.za/wp-content/uploads/2017/07/Joox-WeChat-header-810x400.png',
+                            'imageUrl' => 'https://rest.farzain.com/api/photofunia/retro.php?text1=powered%20by&text2=GABZBOT&text3=@tww8169j&apikey=ppqeuy',
                             'action' => 
                             array (
                               'type' => 'message',
